@@ -1,5 +1,6 @@
-# Welcome to GitHub Desktop!
+# Site com Currículo
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
+Este é um site que criei após o curso de HTML5 E CSS3 da Digital Inovation One
+para exibir meus contatos, redes sociais e informações profissionais.
 
-Write your name on line 6, save it, and then head back to GitHub Desktop.
+Gabriele Almeida
