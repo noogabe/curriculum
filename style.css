@@ -1,0 +1,110 @@
+:root {
+    --color-lilac: #b058eb;
+    --color-ligth-lilac:  #ba9acf;
+  }
+  *{
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+  body {
+     background: #282828;
+     font-family: 'Source Sans Pro', sans-serif;
+     font-weight: 600;
+     color: white;
+  }
+  header {
+    padding: 25px;
+    border: 1px solid rgb(41, 41, 41);
+    background: rgba(0, 0, 0, 0.1);
+  }
+.links {
+    text-align: center;
+  }
+.links a {
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 28px; /*altura da linha do texto. 10px a mais que o fontsize*/
+    margin: 0 16px;
+    text-decoration: none;
+  }
+
+.links a:hover {
+    color: var(--color-lilac);
+    transition: color 200ms;
+  }
+  
+  #wrapper {
+    text-align: center;
+    padding: 25px;
+  }
+
+  #wrapper img {
+    border-radius: 50%;
+    border: 5px solid var(--color-lilac);
+    margin-bottom: 32px;
+    height: 200px;
+  }
+
+  #wrapper h1 {
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 700;
+  }
+
+  #wrapper h2 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: normal;
+    margin-top: 8px;
+    opacity: 0.8;
+  }
+
+  #wrapper p {
+    max-width: 500px;
+    margin: 26px auto;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+  }
+
+  #wrapper p a {
+    color: var(--color-lilac);
+    text-decoration: none;
+  }
+
+  #links-footer {
+    border-top: 3px solid var(--color-lilac);
+    max-width: 50%;
+    margin: -25px  auto 0;
+    padding: 25px;
+  }
+
+  /*CARDS */
+
+  .cards{
+    
+    padding: 25px;
+    margin-bottom: 5px;
+    max-width: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+  .cards header{
+    background-color: #282828;
+  }
+
+  .posts_title{
+
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.post_content{
+    margin: 0;
+    margin-bottom: 5px;
+    text-transform: none;
+    text-align: justify;
+}
